@@ -91,13 +91,27 @@ h2 {
 
 /* Quote section */
 
+.quote {
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+}
+
+.quote-text {
+    margin: 5% 20%;
+}
+
 .quote-text h3 {
     font-family: 'Book Antiqua', serif;
     line-height: 1.7em;
     font-style: italic;
     font-weight: 200;
-    color: #e3e3e3;
     letter-spacing: 0.02em;
+    color: white;
+}
+
+.quote-text p {
+    text-align: right;
 }
 
 
