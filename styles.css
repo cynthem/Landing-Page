@@ -102,7 +102,22 @@ h2 {
 
 
 
+/* Signup section */
+
+
+
+
 /* Footer section */
+
+.footer {
+    background-color: black;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .signup-box-text h3 {
     font-family: 'Book Antiqua', serif;
