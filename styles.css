@@ -1,3 +1,25 @@
 html {
     font-family: 'Edu SA Beginner', 'Book Antiqua', serif;
+    line-height: 1.5em;
+}
+
+h1, h2, .signup-box-text h3 {
+    font-family: 'Book Antiqua', serif;
+    letter-spacing: 0.05em;
+}
+
+.quote-text h3 {
+    font-family: 'Book Antiqua', serif;
+    line-height: 1.7em;
+    font-style: italic;
+    font-weight: 200;
+    color: dimgray;
+    letter-spacing: 0.02em;
+}
+
+.title {
+    font-family: 'Book Antiqua', serif;
+    font-weight: bold;
+    line-height: 0.5em;
+    letter-spacing: 0.05em;
 }
