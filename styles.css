@@ -1,7 +1,8 @@
 body {
     font-family: 'Edu SA Beginner', 'Book Antiqua', serif;
     line-height: 1.5em;
-    color: #e3e3e3;
+    color: darkgray;
+    font-size: 20px;
     padding: 0; 
     margin: 0;
 }
@@ -21,16 +22,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    margin: 50px 50px 0px 50px;
 }
 
 .header-top-logo img {
-    width: 40%;
+    width: 50%;
 }
 
 .header-top-nav a {
     font-family: 'Book Antiqua', serif;
-    color: aqua;
+    color: darkgray;
+    font-size: 17px;
     text-decoration: none;
     margin: 10px;
     letter-spacing: 0.02em;
@@ -38,6 +40,8 @@ body {
 
 .header-bottom {
     display: flex;
+    margin: 100px 100px 50px 100px;
+    align-items: center;
 }
 
 .header-bottom-description {
@@ -45,15 +49,47 @@ body {
     flex-direction: column;
 }
 
+.header-bottom-description button {
+    font-size: 15px;
+    padding: 9px 10px 8px 10px; 
+    letter-spacing: 0.03em;
+    border-radius: 8px;
+    border: none;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+}
+
 h1 {
+    font-family: 'Book Antiqua', serif;
+    letter-spacing: 0.05em;
+    color: white;
+    font-size: 44px;
+}
+
+.header-bottom-img {
+    margin: 50px;
+}
+
+
+
+/* Info section */
+
+h2 {
     font-family: 'Book Antiqua', serif;
     letter-spacing: 0.05em;
 }
 
-h2, .signup-box-text h3 {
+.title {
     font-family: 'Book Antiqua', serif;
+    font-weight: bold;
+    line-height: 0.5em;
     letter-spacing: 0.05em;
 }
+
+
+
+/* Quote section */
 
 .quote-text h3 {
     font-family: 'Book Antiqua', serif;
@@ -64,10 +100,12 @@ h2, .signup-box-text h3 {
     letter-spacing: 0.02em;
 }
 
-.title {
+
+
+/* Footer section */
+
+.signup-box-text h3 {
     font-family: 'Book Antiqua', serif;
-    font-weight: bold;
-    line-height: 0.5em;
     letter-spacing: 0.05em;
 }
 
