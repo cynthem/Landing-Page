@@ -1,9 +1,56 @@
-html {
+body {
     font-family: 'Edu SA Beginner', 'Book Antiqua', serif;
     line-height: 1.5em;
+    color: #e3e3e3;
+    padding: 0; 
+    margin: 0;
 }
 
-h1, h2, .signup-box-text h3 {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header section */
+
+.header {
+    background-color: black;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.header-top-logo img {
+    width: 40%;
+}
+
+.header-top-nav a {
+    font-family: 'Book Antiqua', serif;
+    color: aqua;
+    text-decoration: none;
+    margin: 10px;
+    letter-spacing: 0.02em;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-bottom-description {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Book Antiqua', serif;
+    letter-spacing: 0.05em;
+}
+
+h2, .signup-box-text h3 {
     font-family: 'Book Antiqua', serif;
     letter-spacing: 0.05em;
 }
@@ -13,7 +60,7 @@ h1, h2, .signup-box-text h3 {
     line-height: 1.7em;
     font-style: italic;
     font-weight: 200;
-    color: dimgray;
+    color: #e3e3e3;
     letter-spacing: 0.02em;
 }
 
@@ -23,3 +70,8 @@ h1, h2, .signup-box-text h3 {
     line-height: 0.5em;
     letter-spacing: 0.05em;
 }
+
+
+
+
+
