@@ -1,6 +1,6 @@
 # Taskmaster Landing Page
 > A single web page dedicated to the masterpiece that is the Taskmaster TV show. This project was completed as part of The Odin Project's Foundations curriculum.
-Live demo [_here_](https://doozles411.github.io/Landing-Page/)
+Live demo [_here_](https://doozles411.github.io/Landing-Page/).
 
 ## Room for Improvement
 To do:
