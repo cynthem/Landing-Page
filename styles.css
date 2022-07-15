@@ -5,6 +5,8 @@ body {
     font-size: 20px;
     padding: 0; 
     margin: 0;
+    background-image: url("./Resources/background.png");
+    background-attachment: fixed;
 }
 
 .container {
@@ -95,9 +97,10 @@ h1 {
 
 h2 {
     font-family: 'Book Antiqua', serif;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     margin-top: 75px;
     margin-bottom: 75px;
+    color: white;
 }
 
 .info-content {
@@ -123,13 +126,17 @@ h2 {
     letter-spacing: 0.05em;
     text-align: center;
     line-height: 0px;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
 }
 
 .description {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    color: lightgray;
 }
 
 
@@ -148,15 +155,16 @@ h2 {
 
 .quote-text h3 {
     font-family: 'Book Antiqua', serif;
-    line-height: 1.7em;
+    line-height: 2em;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.02em;
     color: white;
 }
 
 .quote-text p {
     text-align: right;
+    color: lightgray;
 }
 
 
@@ -190,7 +198,7 @@ h2 {
     font-size: 15px;
     border-radius: 8px;
     background-color: black;
-    color: white;
+    color: lightgray;
     letter-spacing: 0.03em;
     font-weight: bold;
 }
